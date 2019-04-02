@@ -1,7 +1,7 @@
 baseURL = "https://darwindwu.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = ""
 theme = "hermit"
 enableGitInfo = true
 pygmentsCodefences  = true
@@ -10,14 +10,14 @@ hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content languag
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
+googleAnalytics = "UA-52998997-6"
+disqusShortname = "darwin"
 
 [author]
-  name = "Darwin D. Wu"
+  name = "Darwin"
 
 [blackfriday]
-  # hrefTargetBlank = true
+  hrefTargetBlank = true
   # noreferrerLinks = true
   # nofollowLinks = true
 
@@ -36,7 +36,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "whatever"
+  homeSubtitle = "loosely coupled and highly cohesive"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -52,16 +52,16 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/darwin67_en"
-
-  # [[params.social]]
-  #   name = "instagram"
-  #   url = "https://instagram.com/"
-
-  [[params.social]]
     name = "github"
     url = "https://github.com/darwin67"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/darwin67"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/darwin67_en"
 
 [menu]
 
