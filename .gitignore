@@ -57,7 +57,7 @@ flycheck_*.el
 # website: https://gohugo.io
 
 # generated files by hugo
-/public/
+# /public/
 /resources/_gen/
 
 # executable may be added to repository
