@@ -37,7 +37,7 @@ disqusShortname = "darwin"
   themeColor = "#494f5c"
 
   homeSubtitle = "loosely coupled and highly cohesive"
-  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
@@ -63,14 +63,18 @@ disqusShortname = "darwin"
     name = "twitter"
     url = "https://twitter.com/67darwin"
 
-[menu]
+  [[params.social]]
+    name = "medium"
+    url = "https://medium.com/@darwin67"
 
-  # [[menu.main]]
-  #   name = "Posts"
-  #   url = "posts/"
-  #   weight = 10
+[menu]
 
   [[menu.main]]
     name = "About"
     url = "about/"
     weight = 20
+
+  [[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 30
